@@ -1,0 +1,251 @@
+html{height: 100%;}
+
+body
+{ 
+font-family: "lucida sans", arial, sans-serif;
+padding: 0px;
+margin: 0px;
+font-size: 14px;
+background: #F8F8F8;
+color: #635B53;
+
+}
+  
+  header
+  {
+	  text-align:center;
+	  height: 130px;	
+	  
+ }
+ 
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	border-bottom: 4px solid;
+	color: #00FFFF;
+	text-align:right;
+  }
+
+li {
+    text-align:centre;
+	
+}
+
+li a {
+	text-align:centre;
+    display: block;
+    color: white;
+    padding: 14px 70px;
+    text-decoration: none;
+}
+
+li a:hover
+{ color: #00FFFF;}
+
+nav ul{
+	float:centre;
+}
+
+nav {
+	position:relative;
+}
+
+nav ul li {
+	display:inline-block;
+	
+}
+
+
+
+article
+{
+width:480px;
+height:300px;
+border: 0px solid;	
+text-align: center;
+margin-left:18%;
+letter-spacing:1px;
+font-size:14px;
+}
+
+section
+{
+width:400px;
+height:300px;
+border: 0px solid;	
+text-align: center;
+margin-left:800px;
+margin-right:800px;
+margin-top:-298px;
+letter-spacing:1px;
+font-size:12px;
+max-width:250px;
+}
+ 
+ h1	 
+ {
+	 letter-spacing:1px;
+	 text-align:center;
+	 font-family: "lucida sans", arial, sans-serif;
+	 font-size: 14px;
+	 color: #000;
+	 border: 0px solid;
+	 margin: 40px;
+	 padding: 5px;
+	 margin-right:455px;
+	
+ }
+ 
+ h2 
+ {
+	 letter-spacing:1px;
+	 text-align:right;
+	 font-family: "lucida sans", arial, sans-serif;
+	 font-size: 14px;
+	 color: #000;
+	 border: 0px solid;
+	 margin: 0px;
+	 padding: 0px;
+	 margin-right:350px;
+	 margin-top:-81px;
+ }
+ 
+ .p1
+{
+	 text-align:center;
+	 letter-spacing:1px;
+	 font-family: "lucida sans", arial, sans-serif;
+	 font-size: 12px;
+	 color: #000;
+	 border: 0px solid;
+	 margin: 0px;
+	 padding: 0px;
+	 margin-left:245px;
+	 margin-top:-40px;
+	 max-width:500px;
+}
+
+ .p2
+{
+	 text-align:center;
+	 letter-spacing:1px;
+	 font-family: "lucida sans", arial, sans-serif;
+	 font-size: 12px;
+	 color: #000;
+	 border: 0px solid;
+	 margin: 0px;
+	 padding: 0px;
+	 margin-left:245px;
+	 margin-top:40px;
+	 max-width:500px;
+}
+
+ .p3
+{
+	 text-align:center;
+	 letter-spacing:1px;
+	 font-family: "lucida sans", arial, sans-serif;
+	 font-size: 12px;
+	 color: #000;
+	 border: 0px solid;
+	 margin: 0px;
+	 padding: 0px;
+	 margin-left:245px;
+	 margin-top:40px;
+	 max-width:500px;
+}
+
+ .p4
+{
+	 text-align:center;
+	 letter-spacing:1px;
+	 font-family: "lucida sans", arial, sans-serif;
+	 font-size: 12px;
+	 color: #000;
+	 border: 0px solid;
+	 margin: 0px;
+	 padding: 0px;
+	 margin-left:245px;
+	 margin-top:40px;
+	 max-width:500px;
+}
+
+ .p5
+{
+	 text-align:center;
+	 letter-spacing:1px;
+	 font-family: "lucida sans", arial, sans-serif;
+	 font-size: 12px;
+	 color: #000;
+	 border: 0px solid;
+	 margin: 0px;
+	 padding: 0px;
+	 margin-left:245px;
+	 margin-top:40px;
+	 max-width:500px;
+}
+
+ .p6
+{
+	 text-align:center;
+	 letter-spacing:1px;
+	 font-family: "lucida sans", arial, sans-serif;
+	 font-size: 12px;
+	 color: #000;
+	 border: 0px solid;
+	 margin: 0px;
+	 padding: 0px;
+	 margin-left:245px;
+	 margin-top:40px;
+	 max-width:500px;
+}
+
+footer
+{
+   position:absolute;
+   bottom:-250px; /*Sets the footer at the very bottom of the web page*/
+   width:100%; /*The width percentage of the footer */
+   height:60px;   /* Height of the footer */
+   background-color:#333; /*The background colour for the footer*/
+   border-top: 4px solid; /*Adds a border to the top of the footer*/
+   color: #00FFFF; /*Colour of the top border */
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #635B53;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #00FFFF;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+

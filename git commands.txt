@@ -1,0 +1,7 @@
+git commit -m "comment" 
+
+commit before push
+
+git push -u origin master
+
+ce05ull
