@@ -5,6 +5,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" href="css/style.css">
+		
+		<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
 </head>
 
 <body>
@@ -67,10 +74,28 @@
  
 <b>LOCATION OF THE EXTRA TIME OFFICES</b>
 <br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1210.901716092181!2d-1.1543380418486775!3d52.627396223049466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487760c4091be743%3A0xef6bac93276a25f8!2s56+Cambridge+St%2C+Leicester+LE3!5e0!3m2!1sen!2suk!4v1514554257823" width="240" height="350" style="border:0" allowfullscreen></iframe>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 52.627511, lng: -1.153313};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDH2rZHjY0EyR4cpXWTpD7f8R7a9pZbfK0&callback=initMap">
+    </script>
+	
 </section>
 
 <footer>
+<li><a href="sitemap.html">SITEMAP</a></li>
 </footer>
 </body>
 </html>
